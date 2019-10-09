@@ -1,0 +1,13 @@
+package org.sora.rest;
+
+public enum Code {
+
+    OK,
+    USER_NOT_FOUND,
+    USER_NOT_REGISTERED,
+    USER_VALUES_NOT_FOUND,
+    PHONE_ALREADY_REGISTERED,
+    PHONE_ALREADY_VERIFIED,
+    INCORRECT_QUERY_PARAMS,
+    WRONG_USER_STATUS
+}
